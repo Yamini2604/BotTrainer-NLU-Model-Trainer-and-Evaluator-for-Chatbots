@@ -9,16 +9,7 @@ The system is designed to help teams iteratively improve chatbot performance thr
 
 🏗️ **System Architecture**
 
-Frontend (Streamlit)
-        |
-        v
-Backend (FastAPI)
-        |
-        v
-ML Models (Rasa / spaCy)
-        |
-        v
-MongoDB Database
+Frontend (Streamlit) -> Backend (FastAPI) -> ML Models (Rasa / spaCy) -> MongoDB Database
 
 **How to Run the Project :**
 
